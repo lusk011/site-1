@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    margin:5px ;
+    padding: 10px;
+    border-left: solid 7px;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+
+}

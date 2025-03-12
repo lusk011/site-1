@@ -1,28 +1,96 @@
-.frases {text-align: center;
- 
+* {
+    margin 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+    
+  }
+  
+  body {
+
+    background-color: black;
+    color: white;
+    margin:5px;
+    padding: 0px;
+    font-family: 'Open Sans', Sans-Serif;
+    
+  }
+   ul {
+     display: flex;
+     justify-content: space-between;
+     list-style-type: none;
+     margin:0px;
+     padding: 10px;
+   }
+   
+   ul a{
+     text-decoration: none;
+     color: white;
+     
+   }
+   
+   .frases {text-align: center;
+   
+  }
+  
+  .formulario {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: auto;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
 }
-
-.head {color: white;
-text-decoration: none;
-display: inline-block;
-margin-left: 290px;}
-
-.formulario
-{  text-align: center;
-margin-right: 7px;}
-
-#b1 {
+.formulario div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+}
+  
+  
+  .formulario input {
+      width: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+  }
+      
+  
+  fieldset {
+    padding: 15px;
+    border-radius: 15px;
+    color:	#A9A9A9 ;
+    
+  }
+  
+  legend{
+  text-align: left;
+  
+  }
+  
+  #b1 {
     text-align: center;
-    margin-top: 7px;
+    padding:0%;
+    margin-top:5px;
+   
+    
+  }
+  
+  .sign a {
+    text-decoration: none;
+    color: white;
+    margin-left: 37px;
     
   
-}
-body{font-size: 16px;
-background-color: black;
-color: white;}
-
-
-
-
-
-
+    
+  }
+  .sign {text-align: center;
+margin-right: 30px;
+margin-top: 8px;}
