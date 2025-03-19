@@ -29,6 +29,15 @@
      color: white;
      
    }
+   .links:hover {
+    padding: 3px;
+    background-color:#A9A9A9;
+    transform: scale(1.05);
+    border-radius: 70px;
+   }
+
+
+   .frases {font-size: 16px;}
 
    .trilho {
     text-align: center;
@@ -111,19 +120,24 @@
    .frases {text-align: center;
    
   }
-  
-  .formulario {
-      display: flex;
-      flex-direction: column;
-      max-width: 300px;
-      margin: auto;
+
+  input {
+      border-radius: 10px;
+      border-left: 3px solid grey;
   }
+
+  input:hover{
+      box-shadow: inset 0px 0px 10px #A9A9A9;
+      
+  }
+  
   
   .formulario {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     margin: auto;
+    margin-top: 20px;
 }
 .formulario div {
     display: flex;
@@ -153,12 +167,28 @@
   
   }
   
+ 
+ button{
+  padding: 2.5px;
+  background-color: transparent;
+  color: white;
+  border: 3px solid #A9A9A9;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+
+ button:hover {
+
+    box-shadow: inset 0px 0px 10px grey;
+ }
+
+ 
+ 
   #b1 {
     text-align: center;
     padding:0%;
     margin-top:5px;
-   
-    
+    background-color: transparent; 
   }
   
   .sign a {
@@ -172,3 +202,4 @@
   .sign {text-align: center;
 margin-right: 30px;
 margin-top: 8px;}
+
