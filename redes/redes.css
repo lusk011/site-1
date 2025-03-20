@@ -3,16 +3,19 @@
 
 }
  body{
-
-    margin: 50px;
-    background-color: grey;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+    margin: 0;
+    
  }
-
 
 #gitlink {
     display: flex; 
     align-items: center; 
-    margin: 20px;
+    margin-left: 5px;
 }
 
 #gitlink img {
@@ -28,7 +31,7 @@
 #ytb {
     display: flex;
     align-items: center;
-    margin:0px;
+    margin-left: 5px
 }
 
 #ytb img {
@@ -46,31 +49,38 @@
 
 }
 
-#ytb, #gitlink, #linkedin {
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-    padding: 7px;
-
-}
-
 #linkedin {
     display: flex;
     align-items: center;
-
+    margin-left: 5px;
 }
+
 
 #linkedin img {
     width: 30px;
     height: auto;
     margin-right: 10px;
+    
 }
 
 #linkedin a {
     color: white;
     text-decoration: none;
-   
+
 }
+
+.btt {
+display: flex;
+flex-direction: column;
+zoom: 1.3;
+
+}
+
+
+
+
+
+
 
 
 
