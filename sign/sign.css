@@ -11,8 +11,6 @@
 
     background-color: black;
     color: white;
-    margin: 10px;
-    padding: 10px;
     font-family: 'Open Sans', Sans-Serif;
     zoom: 1.3;
   }
@@ -21,7 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  margin-top: 25px;
+  gap: 8px;
   font-size: 16px;
     
 
@@ -34,7 +33,10 @@ input {
 
 input:hover{
   box-shadow: inset 0px 0px 10px #A9A9A9;
-  
+}
+
+input:focus {
+  outline: none;
 }
 
 .trilho {
@@ -137,6 +139,7 @@ button{
  button:hover {
 
     box-shadow: inset 0px 0px 10px grey;
+    transform: scale(1.05);
  }
  
 
@@ -149,10 +152,10 @@ color:#A9A9A9 ;
 #b1 {
     text-align: center;
     margin-top: 5px;
-
 }
 
-.sign a {
+
+.login a {
 
 display:flex ;
 justify-content: center;
@@ -160,8 +163,10 @@ margin-right: 7px;
 padding: 5px;
 text-decoration: none;
 color: white;
+}
 
-
+.login:hover {
+transform: scale(1.05);
 }
 
 

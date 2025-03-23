@@ -129,7 +129,9 @@
 
   input:hover{
       box-shadow: inset 0px 0px 10px #A9A9A9;
-      
+  }
+  input:focus {
+    outline: none;
   }
   
   
@@ -181,6 +183,7 @@
  button:hover {
 
     box-shadow: inset 0px 0px 10px grey;
+    transform: scale(1.05);
  }
 
  
@@ -200,7 +203,14 @@
   
     
   }
-  .sign {text-align: center;
-margin-right: 30px;
-margin-top: 8px;}
+  .sign {
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 8px;
+
+}
+
+.sign:hover {
+ transform: scale(1.05);
+}
 
